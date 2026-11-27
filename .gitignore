@@ -1,3 +1,11 @@
+# Pinable shared local files
+.codegraph/
+Thumbs.db
+[Dd]esktop.ini
+.env
+.env.local
+.env.*.local
+
 node_modules
 dist/
 .mygo/

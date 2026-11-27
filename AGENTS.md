@@ -180,3 +180,7 @@ Windows GUI tests need Windows with the WebView2 Runtime (a GitHub Actions
   behind ("What tests leave behind" in the architecture guide) fails it, not
   the tests after it. Before calling a failure older than a pull request,
   reproduce it on a new X server, without running the branch's binary on it.
+
+## Git ignore rules
+
+For local files and generated indexes, follow the [Pinable Git ignore baseline](https://github.com/PinableLab/pinable-rules/blob/main/common/development.md#git-忽略规则). Keep `.codegraph/` and local environment overrides out of Git. Preserve tracked examples and shared configuration.
